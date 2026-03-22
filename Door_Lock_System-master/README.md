@@ -1,4 +1,4 @@
-# 🔒 IoT Security Lock System
+# IoT Security Lock System
 
 A real-time IoT security lock system that tracks access attempts and displays them on a live dashboard using Firebase. Perfect for monitoring door access, employee entry logs, and security events in real-time.
 
@@ -8,17 +8,17 @@ A real-time IoT security lock system that tracks access attempts and displays th
 ![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
 
-## ✨ Features
+##  Features
 
-- 🔥 **Real-time Firebase Integration** - Live updates without page refresh
-- 🔒 **Security Access Logging** - Track successful and failed access attempts
-- 📊 **Live Dashboard** - Real-time monitoring of access logs
-- 🧪 **Test Panel** - Add sample data for development and testing
-- 🔐 **Authentication System** - Secure admin access
-- 📱 **Responsive Design** - Works on desktop, tablet, and mobile
-- ⚡ **Instant Updates** - See changes across all connected devices immediately
+- **Real-time Firebase Integration** - Live updates without page refresh
+- **Security Access Logging** - Track successful and failed access attempts
+- **Live Dashboard** - Real-time monitoring of access logs
+- **Test Panel** - Add sample data for development and testing
+-  **Authentication System** - Secure admin access
+- **Responsive Design** - Works on desktop, tablet, and mobile
+-  **Instant Updates** - See changes across all connected devices immediately
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 
@@ -81,13 +81,13 @@ npm run dev
 - Login with: `admin` / `admin123`
 - Start monitoring access logs in real-time!
 
-## 📖 Documentation
+##  Documentation
 
-- 📋 [Firebase Setup Guide](FIREBASE_SETUP_GUIDE.md) - Complete Firebase configuration
-- 🧪 [Testing Guide](TESTING_GUIDE.md) - How to test all features
-- 🚀 [GitHub Deployment Guide](GITHUB_DEPLOYMENT_GUIDE.md) - Deploy to GitHub
+-  [Firebase Setup Guide](FIREBASE_SETUP_GUIDE.md) - Complete Firebase configuration
+-  [Testing Guide](TESTING_GUIDE.md) - How to test all features
+-  [GitHub Deployment Guide](GITHUB_DEPLOYMENT_GUIDE.md) - Deploy to GitHub
 
-## 🏗️ Project Structure
+##  Project Structure
 
 ```
 ├── backend/                 # Node.js Express server
@@ -112,7 +112,7 @@ npm run dev
 └── README.md              # This file
 ```
 
-## 🔌 API Endpoints
+##  API Endpoints
 
 ### Authentication
 
@@ -127,7 +127,7 @@ npm run dev
 
 - `POST /api/test-log` - Add random test data
 
-## 🤖 IoT Device Integration
+##  IoT Device Integration
 
 Your IoT security lock can send access data using simple HTTP requests:
 
@@ -146,7 +146,7 @@ fetch("http://your-server:5000/api/logs", {
 
 The data will appear instantly on all connected dashboards!
 
-## 🎯 Use Cases
+##  Use Cases
 
 - **Office Buildings** - Monitor employee access
 - **Residential Security** - Track home entry/exit
@@ -154,7 +154,7 @@ The data will appear instantly on all connected dashboards!
 - **School Security** - Monitor campus entry points
 - **Hospital Access Control** - Track restricted area access
 
-## 🛠️ Development
+##  Development
 
 ### Adding New Features
 
@@ -178,14 +178,14 @@ cd frontend
 npm run build
 ```
 
-## 🔒 Security
+## Security
 
 - Environment variables are never committed to the repository
 - Firebase security rules should be configured for production
 - All API endpoints include proper error handling
 - Authentication is required for dashboard access
 
-## 📊 Screenshots
+##  Screenshots
 
 ### Dashboard Overview
 
@@ -195,7 +195,7 @@ npm run build
 
 ![Real-time](https://via.placeholder.com/800x400/059669/ffffff?text=Live+Firebase+Updates)
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please read our contributing guidelines and submit pull requests for any improvements.
 
@@ -205,18 +205,18 @@ Contributions are welcome! Please read our contributing guidelines and submit pu
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📝 License
+##  License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Firebase for real-time database capabilities
 - React team for the amazing frontend framework
 - Tailwind CSS for beautiful styling
 - Express.js for robust backend API
 
-## 📞 Support
+##  Support
 
 If you have any questions or need help:
 
