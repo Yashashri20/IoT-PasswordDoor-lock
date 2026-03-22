@@ -216,17 +216,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Tailwind CSS for beautiful styling
 - Express.js for robust backend API
 
-##  Support
 
-If you have any questions or need help:
-
-1. Check our [Documentation](FIREBASE_SETUP_GUIDE.md)
-2. Review the [Testing Guide](TESTING_GUIDE.md)
-3. Open an [Issue](https://github.com/YOUR_USERNAME/iot-security-lock-system/issues)
-4. Start a [Discussion](https://github.com/YOUR_USERNAME/iot-security-lock-system/discussions)
-
----
-
-⭐ **Star this repository if you find it helpful!**
-
-Made with ❤️ for IoT security applications
+ **Star this repository if you find it helpful!**
