@@ -1,7 +1,7 @@
 require("dotenv").config();
 const express = require("express");
 const cors = require("cors");
-const axios = require("axios"); // ✅ Added (was missing)
+const axios = require("axios"); //  Added (was missing)
 
 // Try to load Firebase config, but handle errors gracefully
 let db, realtimeDb;
@@ -54,10 +54,10 @@ app.post("/api/login", (req, res) => {
 app.get("/api/logs", async (req, res) => {
   try {
     if (realtimeDb) {
-      // ❌ OLD (reading from access_logs)
+      // OLD (reading from access_logs)
       // const logsRef = realtimeDb.ref("access_logs");
 
-      // ✅ NEW (reading from rfid_logs)
+      // NEW (reading from rfid_logs)
       const logsRef = realtimeDb.ref("rfid_logs");
 
       const snapshot = await logsRef
@@ -113,7 +113,7 @@ app.post("/api/logs", async (req, res) => {
       });
     }
 
-    // ❌ OLD STRUCTURE (commented)
+    //  OLD STRUCTURE (commented)
     /*
     const logEntry = {
       emp_name,
@@ -124,7 +124,7 @@ app.post("/api/logs", async (req, res) => {
     };
     */
 
-    // ✅ NEW STANDARDIZED STRUCTURE
+    //  NEW STANDARDIZED STRUCTURE
     const normalizedAttempt =
       status?.toLowerCase() === "denied"
         ? "failed"
@@ -204,10 +204,10 @@ app.post("/api/test-log", async (req, res) => {
     };
 
     if (realtimeDb) {
-      // ❌ OLD
+      //  OLD
       // const logsRef = realtimeDb.ref("access_logs");
 
-      // ✅ NEW
+      //  NEW
       const logsRef = realtimeDb.ref("rfid_logs");
 
       const newLogRef = await logsRef.push(logEntry);
